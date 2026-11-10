@@ -1,10 +1,13 @@
-<!DOCTYPE html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="GitHub Pages deployment preview with sample media.">
-  <title>3D OCTA Vessel Segmentation and Analysis | Hengming Jing | Deployment Test</title>
+  <meta name="description" content="3D OCTA vessel segmentation and graph analysis by Hengming Jing, with a fly-through of the cerebral vascular network.">
+  <title>3D OCTA Vessel Segmentation and Analysis | Hengming Jing</title>
   <link rel="stylesheet" href="../style.css">
-<meta name="robots" content="noindex, nofollow"></head>
+</head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
@@ -13,7 +16,7 @@
       <div class="nav-links">
         <a href="../index.html#research">Research</a>
         <a href="../index.html#publications">Publications</a>
-        <a href="../assets/Hengming_Jing_CV.pdf">Sample CV</a>
+        <a href="../assets/Hengming_Jing_CV.pdf">CV</a>
       </div>
     </nav>
   </header>
@@ -22,50 +25,50 @@
     <header class="project-intro">
       <a href="../index.html#research">Back to research</a>
       <h1>3D OCTA Vessel Segmentation and Analysis</h1>
-      <p class="lead">GitHub Pages deployment test.</p>
-      
-      
+      <p class="lead">I use vascular graphs to measure vessel geometry and connectivity in 3D OCTA.</p>
+      <p class="project-status">Manuscript in preparation.</p>
+      <p class="award">Oral presentation at PIBM 2026 (Best Student Paper Award).</p>
     </header>
 
     <section class="detail-section" aria-labelledby="pipeline-title">
       <h2 id="pipeline-title">From volume to vascular graph</h2>
       <div class="figure-grid figure-grid--four">
         <figure>
-          <a class="image-link" href="../assets/octa-volume.webp" aria-label="Open sample image">
-            <img src="../assets/octa-volume.webp" width="760" height="618" alt="Sample image">
+          <a class="image-link" href="../assets/octa-volume.webp" aria-label="View full-size OCTA volume">
+            <img src="../assets/octa-volume.webp" width="760" height="618" alt="Grayscale three-dimensional OCTA volume of a vascular network.">
           </a>
-          <figcaption>Sample image 1.</figcaption>
+          <figcaption>OCTA volume</figcaption>
         </figure>
         <figure>
-          <a class="image-link" href="../assets/octa-mask.webp" aria-label="Open sample image">
-            <img src="../assets/octa-mask.webp" width="583" height="479" alt="Sample image">
+          <a class="image-link" href="../assets/octa-mask.webp" aria-label="View full-size vessel mask">
+            <img src="../assets/octa-mask.webp" width="583" height="479" alt="Segmented vessel mask rendered in maroon.">
           </a>
-          <figcaption>Sample image 2.</figcaption>
+          <figcaption>Vessel mask</figcaption>
         </figure>
         <figure>
-          <a class="image-link" href="../assets/octa-skeleton.webp" aria-label="Open sample image">
-            <img src="../assets/octa-skeleton.webp" width="600" height="600" alt="Sample image">
+          <a class="image-link" href="../assets/octa-skeleton.webp" aria-label="View full-size vessel skeleton">
+            <img src="../assets/octa-skeleton.webp" width="600" height="600" alt="Thin vessel centerlines extracted from the mask.">
           </a>
-          <figcaption>Sample image 3.</figcaption>
+          <figcaption>Vessel skeleton</figcaption>
         </figure>
         <figure>
-          <a class="image-link" href="../assets/octa-graph.webp" aria-label="Open sample image">
-            <img src="../assets/octa-graph.webp" width="600" height="600" alt="Sample image">
+          <a class="image-link" href="../assets/octa-graph.webp" aria-label="View full-size vascular graph">
+            <img src="../assets/octa-graph.webp" width="600" height="600" alt="Vascular graph with nodes at vessel junctions and edges along vessel segments.">
           </a>
-          <figcaption>Sample image 4.</figcaption>
+          <figcaption>Vascular graph</figcaption>
         </figure>
       </div>
-      
+      <p>I fine-tuned VesselFM on public vascular data, then adapted it to our OCTA volumes using manually corrected pseudo-labels. I extracted vessel centerlines from the resulting masks to build the graphs.</p>
     </section>
 
     <section class="detail-section" aria-labelledby="network-title">
       <h2 id="network-title">Inside the vessel network</h2>
       <figure class="video-figure">
-        <video controls="" playsinline="" preload="none" width="1280" height="720" poster="../assets/vessel-video-poster.webp" aria-label="Sample video">
+        <video controls playsinline preload="none" width="1280" height="720" poster="../assets/vessel-video-poster.webp" aria-label="Fly-through of the cerebral vascular network">
           <source src="../assets/octa-vascular-network.mp4" type="video/mp4">
           <a href="../assets/octa-vascular-network.mp4">Open the vessel network video</a>
         </video>
-        <figcaption>Sample video.</figcaption>
+        <figcaption>The fly-through moves from the full network to individual branches. Color indicates a proxy for vessel caliber.</figcaption>
       </figure>
       <p class="related-link"><a href="https://opg.optica.org/abstract.cfm?uri=ecbo-2025-M1C.2">Related conference paper on multiparametric imaging of the cerebral microcirculation</a></p>
     </section>
@@ -74,9 +77,8 @@
 
   <footer class="site-footer">
     <div class="shell">
-      <span>Contact preview</span>
+      <a href="mailto:12432834@mail.sustech.edu.cn">12432834@mail.sustech.edu.cn</a>
     </div>
   </footer>
-
-
-</body></html>
+</body>
+</html>

@@ -1,10 +1,13 @@
-<!DOCTYPE html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="GitHub Pages deployment preview with sample media.">
-  <title>Hengming Jing | Optical and Computational Imaging | Deployment Test</title>
+  <meta name="description" content="Hengming Jing's research at SUSTech on OCT angiography, 3D vascular analysis, and deep-UV microscopy.">
+  <title>Hengming Jing | Optical and Computational Imaging</title>
   <link rel="stylesheet" href="style.css">
-<meta name="robots" content="noindex, nofollow"></head>
+</head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
@@ -13,7 +16,7 @@
       <div class="nav-links">
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="assets/Hengming_Jing_CV.pdf">Sample CV</a>
+        <a href="assets/Hengming_Jing_CV.pdf">CV</a>
       </div>
     </nav>
   </header>
@@ -23,21 +26,21 @@
       <div class="hero-copy">
         <h1 id="profile-title">Hengming Jing</h1>
         <div class="profile-intro">
-          <p class="lead">GitHub Pages deployment test.</p>
-          <img class="portrait" src="assets/hengming-jing-portrait.webp" width="720" height="900" alt="Sample image">
+          <p class="lead">I am a master’s student at Southern University of Science and Technology (SUSTech), advised by <a href="https://www.sustech.edu.cn/en/faculties/tangjianbo.html">Prof. Jianbo Tang</a>.</p>
+          <img class="portrait" src="assets/hengming-jing-portrait.webp" width="720" height="900" alt="Portrait of Hengming Jing">
         </div>
-        <p class="bio">This preview uses sample media to check the homepage and project pages.</p>
+        <p class="bio">My research combines biomedical optics and computational imaging. I use optical coherence tomography angiography (OCTA) to quantify 3D vascular networks. I also build imaging systems, write acquisition software, and run imaging experiments.</p>
         <div class="actions">
-          <a href="assets/Hengming_Jing_CV.pdf">Sample CV</a>
-          <span>Contact preview</span>
+          <a href="assets/Hengming_Jing_CV.pdf">CV (PDF)</a>
+          <a href="mailto:12432834@mail.sustech.edu.cn">Email</a>
         </div>
       </div>
 
       <figure class="hero-figure">
-        <a class="image-link" href="projects/octa-vessels.html" aria-label="Open sample image">
-          <img src="assets/vascular-network-upright.webp" width="1380" height="916" fetchpriority="high" alt="Sample image">
+        <a class="image-link" href="projects/octa-vessels.html" aria-label="Explore the 3D OCTA vessel analysis project">
+          <img src="assets/vascular-network-upright.webp" width="1380" height="916" fetchpriority="high" alt="3D OCTA rendering of cerebral vessels, with larger vessels above finer branches.">
         </a>
-        <figcaption>Sample image 1.</figcaption>
+        <figcaption>Cerebral vessels in 3D OCTA. Color indicates a proxy for vessel caliber.</figcaption>
       </figure>
     </section>
 
@@ -47,21 +50,21 @@
       <article class="project-row">
         <div class="project-copy">
           <h3><a href="projects/mmode-octa.html">OCT Angiography from M-Mode OCT</a></h3>
-          <p>Project page preview.</p>
-          
+          <p>I developed a method to improve vessel contrast in angiograms derived from M-mode OCT scans.</p>
+          <p class="project-status">Manuscript in preparation.</p>
         </div>
-        <div class="preview-pair" role="group" aria-label="Sample images">
+        <div class="preview-pair" role="group" aria-label="Two OCT angiograms from the same M-mode data">
           <figure>
-            <a class="roi-field" href="projects/mmode-octa.html#comparison" aria-label="Open sample image">
-              <img src="assets/mmode-analytical.webp" width="640" height="640" loading="lazy" alt="Sample image">
+            <a class="roi-field" href="projects/mmode-octa.html#comparison" aria-label="See the enlarged region in the baseline angiogram">
+              <img src="assets/mmode-analytical.webp" width="640" height="640" loading="lazy" alt="Baseline angiogram computed by absolute complex difference.">
             </a>
-            <figcaption>Sample image 2.</figcaption>
+            <figcaption>Absolute complex difference</figcaption>
           </figure>
           <figure>
-            <a class="roi-field" href="projects/mmode-octa.html#comparison" aria-label="Open sample image">
-              <img src="assets/mmode-updated.webp" width="640" height="640" loading="lazy" alt="Sample image">
+            <a class="roi-field" href="projects/mmode-octa.html#comparison" aria-label="See the enlarged region in the proposed angiogram">
+              <img src="assets/mmode-updated.webp" width="640" height="640" loading="lazy" alt="Proposed angiogram of the same field, showing fine vessel branches.">
             </a>
-            <figcaption>Sample image 3.</figcaption>
+            <figcaption>Proposed OCTA</figcaption>
           </figure>
         </div>
       </article>
@@ -69,18 +72,18 @@
       <article class="project-row">
         <div class="project-copy">
           <h3><a href="projects/octa-vessels.html">3D OCTA Vessel Segmentation and Analysis</a></h3>
-          <p>Project page preview.</p>
-          
-          
+          <p>I adapted VesselFM to segment vessels in OCTA volumes and built vascular graphs to measure vessel geometry and connectivity.</p>
+          <p class="project-status">Manuscript in preparation.</p>
+          <p class="award">Best Student Paper Award, PIBM 2026</p>
         </div>
-        <div class="preview-pair preview-pair--vessels" role="group" aria-label="Sample images">
+        <div class="preview-pair preview-pair--vessels" role="group" aria-label="Vessel mask and extracted skeleton">
           <figure>
-            <img src="assets/octa-mask.webp" width="583" height="479" loading="lazy" alt="Sample image">
-            <figcaption>Sample image 4.</figcaption>
+            <img src="assets/octa-mask.webp" width="583" height="479" loading="lazy" alt="Maroon segmented vessels rendered as a volume.">
+            <figcaption>Vessel mask</figcaption>
           </figure>
           <figure>
-            <img src="assets/octa-skeleton.webp" width="600" height="600" loading="lazy" alt="Sample image">
-            <figcaption>Sample image 5.</figcaption>
+            <img src="assets/octa-skeleton.webp" width="600" height="600" loading="lazy" alt="Thin vessel centerlines extracted from the segmentation.">
+            <figcaption>Vessel skeleton</figcaption>
           </figure>
         </div>
       </article>
@@ -88,21 +91,21 @@
       <article class="project-row">
         <div class="project-copy">
           <h3><a href="projects/deep-uv.html">Deep-UV Imaging and Automated Acquisition</a></h3>
-          <p>Project page preview.</p>
-          
+          <p>I helped build and align a deep-UV imaging module for serial sectioning. I wrote software to control the camera and stage, correct for uneven illumination, and stitch image tiles.</p>
+          <p class="project-status">Manuscript in preparation.</p>
         </div>
-        <div class="preview-pair preview-pair--uv" role="group" aria-label="Sample images">
+        <div class="preview-pair preview-pair--uv" role="group" aria-label="Deep-UV instrument and mouse brain volume">
           <figure>
-            <a class="image-link" href="projects/deep-uv.html#instrument" aria-label="Open sample image">
-              <img src="assets/deep-uv-cad.webp" width="1350" height="1080" loading="lazy" alt="Sample image">
+            <a class="image-link" href="projects/deep-uv.html#instrument" aria-label="See the deep-UV instrument">
+              <img src="assets/deep-uv-cad.webp" width="1350" height="1080" loading="lazy" alt="CAD rendering of the deep-UV imaging and serial-sectioning instrument.">
             </a>
-            <figcaption>Sample image 6.</figcaption>
+            <figcaption>Instrument CAD model</figcaption>
           </figure>
           <figure>
-            <a class="image-link" href="projects/deep-uv.html#volume" aria-label="Open sample image">
-              <img src="assets/deep-uv-volume.png" width="1233" height="881" loading="lazy" alt="Sample image">
+            <a class="image-link" href="projects/deep-uv.html#volume" aria-label="See the mouse brain volume">
+              <img src="assets/deep-uv-volume.png" width="1233" height="881" loading="lazy" alt="Mouse brain volume from serial deep-UV images, with three section planes outlined.">
             </a>
-            <figcaption>Sample image 7.</figcaption>
+            <figcaption>3D mouse brain volume</figcaption>
           </figure>
         </div>
       </article>
@@ -155,14 +158,17 @@
       </ol>
     </section>
 
-    <section id="experience" class="section experience" aria-labelledby="experience-title"><h2 id="experience-title">Industry experience</h2><p>Experience section preview.</p></section>
+    <section id="experience" class="section experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Industry experience</h2>
+      <p><strong>Software Development Intern, Raymind</strong> (2026)</p>
+      <p>I developed a workflow to estimate leukocyte proportions from bright-field and fluorescence images. In an internal evaluation against same-day complete blood counts, the workflow reduced mean absolute error by about 75% compared with the company’s previous method.</p>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="shell">
-      <span>Contact preview</span>
+      <a href="mailto:12432834@mail.sustech.edu.cn">12432834@mail.sustech.edu.cn</a>
     </div>
   </footer>
-
-
-</body></html>
+</body>
+</html>

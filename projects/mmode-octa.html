@@ -1,10 +1,13 @@
-<!DOCTYPE html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="GitHub Pages deployment preview with sample media.">
-  <title>OCT Angiography from M-Mode OCT | Hengming Jing | Deployment Test</title>
+  <meta name="description" content="OCT angiography from M-mode scans, with a comparison of absolute complex difference and the proposed method.">
+  <title>OCT Angiography from M-Mode OCT | Hengming Jing</title>
   <link rel="stylesheet" href="../style.css">
-<meta name="robots" content="noindex, nofollow"></head>
+</head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
@@ -13,7 +16,7 @@
       <div class="nav-links">
         <a href="../index.html#research">Research</a>
         <a href="../index.html#publications">Publications</a>
-        <a href="../assets/Hengming_Jing_CV.pdf">Sample CV</a>
+        <a href="../assets/Hengming_Jing_CV.pdf">CV</a>
       </div>
     </nav>
   </header>
@@ -22,52 +25,51 @@
     <header class="project-intro">
       <a href="../index.html#research">Back to research</a>
       <h1>OCT Angiography from M-Mode OCT</h1>
-      <p class="lead">GitHub Pages deployment test.</p>
-      
+      <p class="lead">I developed a method to improve vessel contrast in angiograms derived from M-mode OCT scans.</p>
+      <p class="project-status">Manuscript in preparation.</p>
     </header>
 
     <section class="detail-section" id="comparison" aria-labelledby="comparison-title">
       <h2 id="comparison-title">Matched field of view</h2>
       <div class="figure-grid figure-grid--two octa-comparison">
         <figure>
-          <figcaption>Sample image 1.</figcaption>
-          <a class="roi-field" href="../assets/mmode-analytical.webp" aria-label="Open sample image">
-            <img src="../assets/mmode-analytical.webp" width="640" height="640" alt="Sample image">
+          <figcaption>Absolute complex difference</figcaption>
+          <a class="roi-field" href="../assets/mmode-analytical.webp" aria-label="View the full baseline angiogram">
+            <img src="../assets/mmode-analytical.webp" width="640" height="640" alt="Baseline angiogram computed by absolute complex difference, with a box marking the inset region.">
           </a>
-          <svg class="roi-inset" viewBox="352 328 192 192" role="img" aria-label="Sample inset">
-            <image href="../assets/mmode-analytical.webp" width="640" height="640"></image>
+          <svg class="roi-inset" viewBox="352 328 192 192" role="img" aria-label="Enlarged region of the baseline angiogram">
+            <image href="../assets/mmode-analytical.webp" width="640" height="640"/>
           </svg>
         </figure>
         <figure>
-          <figcaption>Sample image 2.</figcaption>
-          <a class="roi-field" href="../assets/mmode-updated.webp" aria-label="Open sample image">
-            <img src="../assets/mmode-updated.webp" width="640" height="640" alt="Sample image">
+          <figcaption>Proposed OCTA</figcaption>
+          <a class="roi-field" href="../assets/mmode-updated.webp" aria-label="View the full proposed angiogram">
+            <img src="../assets/mmode-updated.webp" width="640" height="640" alt="Proposed angiogram of the same field, with a box at the same location.">
           </a>
-          <svg class="roi-inset" viewBox="352 328 192 192" role="img" aria-label="Sample inset">
-            <image href="../assets/mmode-updated.webp" width="640" height="640"></image>
+          <svg class="roi-inset" viewBox="352 328 192 192" role="img" aria-label="The same region enlarged in the proposed angiogram">
+            <image href="../assets/mmode-updated.webp" width="640" height="640"/>
           </svg>
         </figure>
       </div>
-      
+      <p class="figure-note">Both projections span the same field of view and depth range. The insets enlarge the boxed region.</p>
     </section>
 
     <section class="detail-section" aria-labelledby="video-title">
       <h2 id="video-title">Cumulative depth projections</h2>
       <figure class="video-figure">
-        <video controls="" playsinline="" preload="none" width="1024" height="556" poster="../assets/mocta-comparison-poster.png" aria-label="Sample video">
+        <video controls playsinline preload="none" width="1024" height="556" poster="../assets/mocta-comparison-poster.png" aria-label="Cumulative depth projections for absolute complex difference and the proposed OCTA method">
           <source src="../assets/mocta-comparison.mp4" type="video/mp4">
           <a href="../assets/mocta-comparison.mp4">Open the comparison video</a>
         </video>
-        <figcaption>Sample video.</figcaption>
+        <figcaption>The video shows how each maximum-intensity projection changes as more depth planes are included.</figcaption>
       </figure>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="shell">
-      <span>Contact preview</span>
+      <a href="mailto:12432834@mail.sustech.edu.cn">12432834@mail.sustech.edu.cn</a>
     </div>
   </footer>
-
-
-</body></html>
+</body>
+</html>
